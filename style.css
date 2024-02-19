@@ -1,0 +1,84 @@
+/* .notification-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 12px;
+} */
+
+nav{
+    position: fixed;
+}
+.hero{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.para_1{
+    align-items: center;
+    text-align: center ;
+    padding: 20px;
+}
+input{
+    min-height: 50px;
+    max-width: 560px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    padding-left: 200px;
+   
+}
+.get{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(60, 153, 60);
+    color: white;
+    border-radius: 11px;
+    text-align: center;
+    
+}
+.chef{
+    min-height: 400px;
+}
+.cars{
+    display: flex !important;
+    align-items:center ;
+    justify-content: center !important;
+}
+.why {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icon{
+    min-height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lunch{
+    border: none !important;
+    padding: 100px;
+    height: 100px;
+    width: 0px;
+}
+.buy{
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+}
+.nnn{
+    /* display: flex; */
+    /* justify-content: end */
+}
+@media  (max-width:786px) {
+   grid-template-columns: 2fr; ;
+}
